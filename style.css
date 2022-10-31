@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #72A0C1;
+}
+
+.test{
+    position: absolute;
+    z-index: 2;
+    top: 45px;
+    left: 60px;
+    color: black;
+    font-weight: bold;
+}
+
+.btn{
+    width: 100px;
+    height: 20px;
+    margin-top: 20px;
+   margin-left: 210px;
+}
+
+.label{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cancel{
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.div{
+    background-color: white;
+    width: 20%;
+    right: 200px;
+    top: 18%;
+    z-index: 2;
+    height: 100px;
+    position: absolute;
+}
+
+.head{
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+form{
+    margin: auto;
+    width: 30%;
+    margin-top: 5%;
+    text-align: center;
+    height: 180px;
+    position: relative;
+    background-color: wheat;
+}
+
+@media only screen and (max-width: 900px) {
+    form{
+        width: 100%;
+        margin-top: 0;
+    }
+    .div{
+        background-color: white;
+        width: 80%;
+        right: 37px;
+        top: 23%;
+        z-index: 2;
+        height: 100px;
+        position: absolute;
+    }
+  }
+  
